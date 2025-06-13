@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Texture Packs Minecraft</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #2c2f33;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #23272a;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    .packs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .pack {
+      background-color: #3b3e44;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+
+    .pack img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .pack h2 {
+      margin-top: 10px;
+    }
+
+    .download-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #7289da;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .download-btn:hover {
+      background-color: #5b6eae;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🎨 Texture Packs para Minecraft</h1>
+</header>
+
+<main class="packs">
+  <div class="pack">
+    <img src="https://example.com/pack1.jpg" alt="Pack PvP 16x">
+    <h2>Pack PvP 16x</h2>
+    <p>Ideal para PvP: ligero y con colores brillantes.</p>
+    <a class="download-btn" href="https://example.com/descarga-pack1.zip">Descargar</a>
+  </div>
+
+  <div class="pack">
+    <img src="https://example.com/pack2.jpg" alt="Pack Realista 64x">
+    <h2>Realista 64x</h2>
+    <p>Texturas detalladas para un mundo más inmersivo.</p>
+    <a class="download-btn" href="https://example.com/descarga-pack2.zip">Descargar</a>
+  </div>
+</main>
+
+</body>
+</html>
